@@ -1,0 +1,26 @@
+{
+  "name": "locale-compare",
+  "version": "0.1.0",
+  "description": "Locale-aware string comparison with Intl.Collator and localeCompare fallback",
+  "main": "src/locale-compare.js",
+  "scripts": {
+    "test": "jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyjk2000/locale-compare.git"
+  },
+  "author": "James Shih <gtx1024@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyjk2000/locale-compare/issues"
+  },
+  "homepage": "https://github.com/hyjk2000/locale-compare#readme",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "jest": {
+    "collectCoverageFrom": ["src/**/*.js"],
+    "modulePaths": ["<rootDir>/src"]
+  }
+}
