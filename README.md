@@ -1,7 +1,5 @@
 # locale-compare
 
-[![Build Status](https://travis-ci.org/hyjk2000/locale-compare.svg?branch=master)](https://travis-ci.org/hyjk2000/locale-compare)
-
 Locale-aware string comparison with [`Intl.Collator`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator) and [`localeCompare`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare) fallback.
 
 ## Usage
