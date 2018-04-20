@@ -1,11 +1,16 @@
-const localeCompare = require("locale-compare");
+var localeCompare = require("locale-compare");
 
 test("works!", function() {
-  const compare = localeCompare();
+  var compare = localeCompare();
   expect(compare("ä", "z")).toBeLessThan(0);
 });
 
 test("works with specified locale!", function() {
-  const compare = localeCompare("sv");
-  expect(compare("ä", "z")).toBeGreaterThan(0);
+  var compare = localeCompare("sv");
+
+  // localeCompare doesn't support locale argument
+  // in environments that lack Intl support
+  if (typeof Intl === 'object') {
+    expect(compare("ä", "z")).toBeGreaterThan(0);
+  }
 });
