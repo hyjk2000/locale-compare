@@ -1,5 +1,7 @@
 # locale-compare
 
+[![npm](https://img.shields.io/npm/v/locale-compare.svg?style=flat-square)](https://www.npmjs.com/package/locale-compare)
+
 Locale-aware string comparison with [`Intl.Collator`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator) and [`localeCompare`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare) fallback.
 
 ## Usage
