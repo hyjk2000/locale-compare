@@ -1,3 +1,5 @@
+"use strict";
+
 function localeCompare(locale) {
   return Intl && "Collator" in Intl
     ? new Intl.Collator(locale).compare
