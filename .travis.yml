@@ -6,7 +6,7 @@ node_js: 'lts/*'
 
 script:
   - npm test
-  - npm test:full-icu
+  - npm run test:full-icu
 
 deploy:
   provider: npm
