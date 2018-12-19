@@ -1,10 +1,11 @@
 {
   "name": "locale-compare",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Locale-aware string comparison with Intl.Collator and localeCompare fallback",
   "main": "src/locale-compare.js",
   "scripts": {
-    "test": "node test/locale-compare-test.js"
+    "test": "node test/locale-compare-test.js",
+    "test:full-icu": "node --icu-data-dir=node_modules/full-icu test/locale-compare-test.js"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,7 @@
   },
   "keywords": [
     "locale",
+    "icu",
     "string",
     "compare",
     "comparison",
@@ -27,5 +29,8 @@
     "url": "https://github.com/hyjk2000/locale-compare/issues"
   },
   "homepage": "https://github.com/hyjk2000/locale-compare#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "full-icu": "^1.2.1"
+  }
 }
