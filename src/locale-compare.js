@@ -1,11 +1,11 @@
 "use strict";
 
 function detectCollator(locale) {
-	return (
-		Intl
-		&& "Collator" in Intl
-		&& (typeof locale === "undefined" || Intl.Collator.supportedLocalesOf(locale).length > 0)
-	);
+  return (
+    Intl
+    && "Collator" in Intl
+    && (typeof locale === "undefined" || Intl.Collator.supportedLocalesOf(locale).length > 0)
+  );
 }
 
 function localeCompare(locale) {
