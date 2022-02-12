@@ -1,6 +1,6 @@
 {
   "name": "locale-compare",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Locale-aware string comparison with Intl.Collator and localeCompare fallback",
   "main": "src/locale-compare.js",
   "scripts": {
@@ -31,6 +31,6 @@
   "homepage": "https://github.com/hyjk2000/locale-compare#readme",
   "dependencies": {},
   "devDependencies": {
-    "full-icu": "^1.2.1"
+    "full-icu": "^1.4.0"
   }
 }
